@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+#board{
+    height: 326px;
+    width: 326px;
+    margin: 10px auto;
+    border: 10px solid blue;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img{
+   height: 102px; 
+   width: 102px; 
+   border: 1px solid blue;
+}
